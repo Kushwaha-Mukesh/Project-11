@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600&family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    margin-top: 40px;
+    margin-left: 120px;
+}
+.logo img {
+    width: 100px;
+    float: left;
+}
+
+.nav-items {
+    float: right;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.nav-items a:hover {
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-button {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 35px;
+    border: 1px solid #2993F1;
+    color: #2993F1;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-right: 120px;
+}
+
+.main-content {
+    clear: both;
+    padding-top: 120px;
+}
+
+.image img {
+    width: 500px;
+}
+
+img[alt="technical-support"] {
+    transform: translateY(-70px);
+}
+
+.main-content .block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 120px;
+    margin-bottom: 200px;
+}
+
+.content h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 2;
+    color: rgb(82, 79, 79);
+    margin: 30px 0;
+}
+
+.content button {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to top left, #056EEC, #08B5F7);
+    color: #fff;
+    font-weight: 400;
+    box-shadow: 0 0 15px 5px #C8DFF4;
+}
+
+.service-description {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: -100px 120px 70px 120px;
+    justify-content: space-between;
+}
+
+.service-description h1 {
+    font-size:50px;
+    font-weight: 500;
+}
+
+.service-description p {
+    font-size: 16px;
+    line-height: 2;
+    color: rgb(82, 79, 79);
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 120px 70px 120px;
+}
+
+.service h3 {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 30px 0 20px 0;
+    align-items: center;
+}
+
+.service p {
+    font-size: 14px;
+    color: rgb(107, 102, 102);
+    margin-bottom: 70px;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.pricing {
+    background: linear-gradient(#09BCF7, #056CEB);
+    padding: 70px 100px;
+}
+
+.pricing h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.pricing-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.pricing-list {
+    background-color: #fff;
+    flex-grow: 1;
+    border-radius: 20px;
+}
+
+.price-head {
+    padding: 10px 0 30px 30px;
+}
+
+.active .price-head {
+    background-color: black;
+    color: #fff;
+    border-radius: 20px;
+}
+.price-head h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px 0 15px 0;
+}
+
+.price-head p {
+    font-size: 16px;
+    color: rgb(129, 126, 126);
+}
+
+.price-body {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.price-body ul li {
+    list-style-type: none;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.price-body ul li i {
+    color: rgb(3, 182, 182);
+    margin-right: 15px;
+}
+
+.price-bottom {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.price-bottom h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.price-bottom h2 span {
+    color: rgb(177, 169, 169);
+}
+
+.price-bottom p {
+    color: rgb(146, 143, 143);
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.price-bottom button {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 35px;
+    border: 1px solid #2993F1;
+    color: #2993F1;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.price-bottom button.active {
+    background: linear-gradient(to top left, #056EEC, #08B5F7);
+    color: #fff;
+    font-weight: 400;
+    box-shadow: 0 0 15px 5px #C8DFF4;
+}
+
+.feedback {
+    margin: 150px 100px 120px 100px;
+}
+
+.feedback .feedback-head {
+    text-align: center;
+}
+
+.feedback .feedback-head h1 {
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.feedback .feedback-head p {
+    font-size: 16px;
+    color: rgb(126, 121, 121);
+    margin-bottom: 50px;
+}
+
+.review .image img {
+    width: 70px;
+}
+
+.review-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.review {
+    flex-grow: 1;
+    padding: 30px;
+    border: 1px solid rgb(219, 206, 206);
+    color: rgb(58, 52, 52);
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(219, 201, 201);
+    position: relative;
+}
+
+.review p {
+    font-size: 16px;
+    color: rgb(110, 100, 100);
+    margin-bottom: 30px;
+}
+
+.review-detail {
+    position: absolute;
+    bottom: 50px;
+    left: 120px;
+}
+
+.register-section {
+    background-image: url(../images/footer-bg.svg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 100px 80px 100px;
+    color: #fff;
+}
+
+.register-content h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.register-content p {
+    font-size: 16px;
+}
+
+.register-button button {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.footer {
+    margin: 150px 100px 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer .part-01 img {
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.footer .part-01 p {
+    font-size: 14px;
+    color: rgb(92, 93, 94);
+}
+
+.footer-items h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer-items ul li {
+    list-style-type: none;
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(92, 93, 94);
+}
+
+.footer .part-05 a i {
+    margin-top: 30px;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.footer .part-05 a {
+    text-decoration: none;
+    color: black;
+}
